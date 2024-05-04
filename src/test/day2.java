@@ -8,6 +8,7 @@ public class day2 {
 	@Test(groups= {"Smoke"})
 	public void thirdDemo() {
 		System.out.println("Day2 First");
+		System.out.println("Day2 First");
 	}
 	
 	@Test
@@ -17,6 +18,7 @@ public class day2 {
 	
 	@BeforeTest
 	public void prerequiste() {
+		System.out.println("I will execute first");
 		System.out.println("I will execute first");
 	}
 }

@@ -10,6 +10,7 @@ public class day1 {
 	@AfterTest
 	public void prerequiste() {
 		System.out.println("I will execute last");
+		System.out.println("I will execute last");
 	}
 
 	@Test
@@ -25,6 +26,7 @@ public class day1 {
 	
 	@AfterSuite
 	public void afterSuite() {
+		System.out.println("I'm the last number one");
 		System.out.println("I'm the last number one");
 	}
 }
