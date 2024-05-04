@@ -50,6 +50,9 @@ public class Listeners implements ITestListener{
 		// TODO Auto-generated method stub
 		ITestListener.super.onStart(context);
 		System.out.println("!!!Execution started!!!");
+		System.out.println("!!!Execution started!!!");
+		System.out.println("!!!Execution started!!!");
+		System.out.println("!!!Execution started!!!");
 	}
 
 	@Override
