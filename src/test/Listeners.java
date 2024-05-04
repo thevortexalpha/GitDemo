@@ -35,12 +35,14 @@ public class Listeners implements ITestListener{
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailedButWithinSuccessPercentage(result);
+		System.out.println("HAha");
 	}
 
 	@Override
 	public void onTestFailedWithTimeout(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailedWithTimeout(result);
+		System.out.println("No Haha");
 	}
 
 	@Override
