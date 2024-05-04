@@ -44,7 +44,6 @@ public class day3 {
 		System.out.println("Mobile singout car");
 		System.out.println("Current username is "+userName);
 		System.out.println("Current password is "+password);
-		System.out.println("Current password is "+password);
 	}
 	
 	@Test(dependsOnMethods = {"WebLogincarLoan", "MobilesignoutcarLoan"})
